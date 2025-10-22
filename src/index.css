@@ -1,0 +1,47 @@
+.header-bground {
+    background-image: linear-gradient(90deg, #f6ed22, #1ec632);
+    position: relative;
+}
+
+.principal-header-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.logo {
+    margin: 0 auto;
+}
+/* navbar */
+
+.principal-navbar {
+    max-height: 2.6rem;
+    background-color: #FFF;
+}
+
+.nav-text-principal {
+    font-size: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+}
+
+.principal-navbar ul li {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: rgba(221, 221, 221, 0.253);
+}
+
+.principal-navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.principal-navbar ul li a:hover {
+    background-color: rgba(221, 221, 221, 0.301);
+    transition: all .3s ease;
+}
